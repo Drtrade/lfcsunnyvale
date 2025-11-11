@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { AppProvider, useApp } from './context/AppContext';
-import HomePage from "./components/HomePage.jsx";
+import HomePage from "./components/HomePage";
 import Navbar from './components/Navbar';
 import WelcomePopup from './components/WelcomePopup';
 import Footer from './components/Footer';
