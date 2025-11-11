@@ -11,7 +11,7 @@ const HomePage = () => {
     const currentTime = hour * 60 + minute; // Convert to minutes
     const date = now.getDate();
     
-    // Check if it's the first week of the month (for Spiritual Week of Emphases)
+    // Check if it is the first week of the month (for Spiritual Week of Emphases)
     const isFirstWeek = date <= 7;
     
     // CHOP - Covenant Hour of Prayer (Monday-Friday 6AM-7AM, Saturday 7AM-8AM)
