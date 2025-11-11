@@ -2,10 +2,10 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { AppProvider, useApp } from './context/AppContext';
+import HomePage from "./components/HomePage.jsx";
 import Navbar from './components/Navbar';
 import WelcomePopup from './components/WelcomePopup';
 import Footer from './components/Footer';
-import HomePage from "./components/HomePage.jsx";
 import ServicesPage from './components/ServicesPage';
 import UnitsPage from './components/UnitsPage';
 import AboutPage from './components/AboutPage';
@@ -63,7 +63,7 @@ const AppContent = () => {
       <Footer />
 
       {/* Install App Prompt (PWA) */}
-      <motion.div
+      {/* <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 2 }}
@@ -81,7 +81,7 @@ const AppContent = () => {
         <button className="w-full bg-white text-blue-600 font-semibold py-2 rounded-lg hover:bg-gray-100 transition-colors">
           Install Now
         </button>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
