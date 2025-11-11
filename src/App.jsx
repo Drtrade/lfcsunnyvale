@@ -5,7 +5,7 @@ import { AppProvider, useApp } from './context/AppContext';
 import Navbar from './components/Navbar';
 import WelcomePopup from './components/WelcomePopup';
 import Footer from './components/Footer';
-import HomePage from './components/HomePage';
+import HomePage from "./components/HomePage.jsx";
 import ServicesPage from './components/ServicesPage';
 import UnitsPage from './components/UnitsPage';
 import AboutPage from './components/AboutPage';
